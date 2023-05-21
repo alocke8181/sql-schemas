@@ -1,3 +1,7 @@
+CREATE DATABASE soccer_leagues;
+
+\c soccer_leagues
+
 CREATE TABLE leagues(
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
